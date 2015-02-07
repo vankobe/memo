@@ -1,19 +1,25 @@
 - homebrew(w/ xcode)
 ruby -e “$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)”
 brew doctor
+
 - git
 brew update
 brew install git
 git --version
+git config --global color.ui true
+
 - oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
+
 - tmux
 brew install tmux
+
 - vagrant
 virtual box download
 vagrant download
 vagrant init chef/centos-6.5
 vagrant up
+
 - rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
