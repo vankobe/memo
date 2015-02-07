@@ -26,4 +26,33 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
+- vim
+ - Neo Bundle
+ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
 
+- iTerm2
+download
+
+- SourceTree
+download
+
+- Kobito
+download
+
+- Dash
+download
+
+- curl
+brew install curl
+
+- jq
+brew install jq
+
+- slack
+download
+
+- hip chat
+download
+
+- Pocket
+download
